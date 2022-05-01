@@ -1,0 +1,502 @@
+body {
+  background-color: #0f103f;
+  color: white;
+}
+
+nav {
+  position: absolute;
+  left: 220px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+li {
+  padding: 10px 100px 10px 100px;
+  color: white;
+}
+
+.imgTop {
+  position: absolute;
+  height: 440px;
+  top: 0px;
+  left: 0px;
+}
+
+.abt1 {
+  position: absolute;
+  font-size: 60px;
+  left: 350px;
+  top: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p1 {
+  margin-bottom: 0px;
+}
+
+.abt1 button {
+  color: white;
+  font-size: 18px;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.abt1 button :hover{
+  cursor: pointer;
+}
+
+.hire {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.cv {
+  background: linear-gradient(150deg, #c961de 25%, #2954a3 69%);
+  z-index: 2;
+}
+
+.imgbottom {
+  position: absolute;
+  width: 900px;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.bg1 {
+  position: absolute;
+  left: 735px;
+  z-index: -1;
+}
+
+about {
+  position: absolute;
+  width: 650px;
+  height: 650px;
+  top: 1000px;
+  left: 450px;
+  border-radius: 350px;
+  background-image: linear-gradient(180deg, #c961de, #2954a3);
+}
+
+.bg2 {
+  position: absolute;
+  top: -150px;
+  left: -280px;
+  z-index: -2;
+}
+
+.abtHeading {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  font-family: "Poppins", serif;
+  letter-spacing: 2px;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.abtText {
+  text-align: left;
+  margin: 260px 20px 0px 300px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17.0917px;
+  line-height: 130%;
+}
+
+.girl1 {
+  position: absolute;
+  top: -110px;
+  left: 5px;
+  border-bottom-left-radius: 300px;
+}
+
+.e1 {
+  position: absolute;
+  z-index: -1;
+  left: -150px;
+  top: 350px;
+  mix-blend-mode: overlay;
+}
+.e2 {
+  position: absolute;
+  z-index: -1;
+  left: -150px;
+  top: 340px;
+  mix-blend-mode: overlay;
+}
+.e3 {
+  position: absolute;
+  z-index: -1;
+  left: -150px;
+  top: 330px;
+  mix-blend-mode: overlay;
+}
+.e4 {
+  position: absolute;
+  z-index: -1;
+  left: -150px;
+  top: 320px;
+  mix-blend-mode: overlay;
+}
+.e5 {
+  position: absolute;
+  z-index: -1;
+  left: -150px;
+  top: 325px;
+  mix-blend-mode: overlay;
+}
+
+.stone {
+  position: absolute;
+  top: 400px;
+  left: 470px;
+}
+
+work {
+  position: absolute;
+  height: 1550px;
+  top: 2150px;
+  bottom: 200px;
+}
+
+.card {
+  /* From https://css.glass */
+  background: rgba(220, 210, 227, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.3px);
+  -webkit-backdrop-filter: blur(7.3px);
+  border: 1px solid rgba(220, 210, 227, 0.98);
+}
+
+.card img{
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.desc{
+  width: 100%;
+  height: 18%;
+  text-align: center;
+  margin: -5px 0px 0px 0px;
+  padding-top: 10px;
+  font-size: 35px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  background: rgba(86, 85, 87, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(117.3px);
+  -webkit-backdrop-filter: blur(117.3px);
+} 
+
+#card1 {
+  position: absolute;
+  left: 600px;
+  width: 440px;
+  height: 330px;
+}
+
+#card2 {
+  position: absolute;
+  top: 25px;
+  left: 220px;
+  width: 400px;
+  height: 280px;
+  z-index: -1;
+}
+
+#card2:hover {
+  z-index: 1;
+  transform: scale(1.17, 1.17);
+}
+
+#card3 {
+  position: absolute;
+  top: 25px;
+  left: 1020px;
+  width: 400px;
+  height: 280px;
+  z-index: -1;
+}
+
+#card3:hover {
+  z-index: 1;
+  transform: scale(1.182, 1.182);
+}
+
+.e6 {
+  position: absolute;
+  left: 300px;
+  top: -60px;
+  mix-blend-mode: overlay;
+  z-index: -2;
+}
+.e7 {
+  position: absolute;
+  left: 300px;
+  top: -70px;
+  mix-blend-mode: overlay;
+  z-index: -2;
+}
+.e8 {
+  position: absolute;
+  left: 300px;
+  top: -80px;
+  mix-blend-mode: overlay;
+  z-index: -2;
+}
+.e9 {
+  position: absolute;
+  left: 300px;
+  top: -90px;
+  mix-blend-mode: overlay;
+  z-index: -2;
+}
+.e10 {
+  position: absolute;
+  left: 300px;
+  top: -95px;
+  mix-blend-mode: overlay;
+  z-index: -2;
+}
+
+.bg3 {
+  position: absolute;
+  top: -550px;
+  left: 120px;
+  z-index: -2;
+}
+
+.e11 {
+  position: absolute;
+  top: -245px;
+  left: -9px;
+  width: 1580px;
+  mix-blend-mode: overlay;
+  z-index: -2;
+}
+.e12 {
+  position: absolute;
+  top: -260px;
+  left: -9px;
+  width: 1580px;
+  mix-blend-mode: overlay;
+  z-index: -2;
+}
+.e13 {
+  position: absolute;
+  top: -270px;
+  left: -9px;
+  width: 1580px;
+  mix-blend-mode: overlay;
+  z-index: -2;
+}
+.e14 {
+  position: absolute;
+  top: -280px;
+  left: -9px;
+  width: 1580px;
+  mix-blend-mode: overlay;
+  z-index: -2;
+}
+.e15 {
+  position: absolute;
+  top: -290px;
+  left: -9px;
+  width: 1580px;
+  mix-blend-mode: overlay;
+  z-index: -2;
+}
+
+.heading {
+  position: absolute;
+  font-size: 35px;
+  font-family: "poppins";
+  top: -100px;
+  left: 700px;
+  width: 280px;
+}
+
+contact {
+  position: absolute;
+  top: 3100px;
+}
+
+.contactMe {
+  position: absolute;
+  width: 900px;
+  height: 600px;
+  left: 350px;
+  display: flex;
+  justify-content: space-around;
+  /* From https://css.glass */
+  background: rgba(47, 47, 138, 0.4);
+  border-radius: 30px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid #2f2f8a;
+}
+
+.ch {
+  font-family: "Poppins";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 143.2%;
+  padding: 15px 10px 0px 0px;
+}
+
+.text {
+  width: 300px;
+  padding: 0px 10px 0px 80px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 17px;
+  letter-spacing: 2px;
+  line-height: 24px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.form input {
+  height: 70px;
+  width: 340px;
+  margin: 0px 80px 30px 0px;
+  padding-left: 15px;
+  color: white;
+  border-radius: 10px;
+  background: rgba(220, 210, 227, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(17.3px);
+  -webkit-backdrop-filter: blur(17.3px);
+  border: 1px solid rgba(220, 210, 227, 0.98);
+}
+
+.form input::placeholder {
+  color: white;
+  text-align: left;
+  justify-items: start;
+  height: 15px;
+}
+
+.form button {
+  color: white;
+  font-size: 18px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  margin: -15px 0px 50px 0px;
+  padding: 15px 0px 20px 0px;
+  cursor: pointer;
+}
+
+.girl2 {
+  position: absolute;
+  z-index: 1;
+  top: -650px;
+  left: 100px;
+}
+
+.info1 {
+  margin: 65px 0px 0px 0px;
+}
+
+.info2 {
+  display: flex;
+  font-size: 10px;
+  margin: 30px 10px -20px 10px;
+}
+
+.info2 a {
+  margin-left: 10px;
+}
+
+.info2 p a:link{
+  color: white;
+}
+
+.group {
+  position: absolute;
+  top: 2900px;
+  left: 397px;
+  z-index: -1;
+}
+
+.bg4 {
+  position: absolute;
+  top: 3400px;
+  left: 1085px;
+  height: 860px;
+  z-index: -2;
+}
+
+footer {
+  z-index: -2;
+  position: absolute;
+  top: 3950px;
+  height: 350px;
+  width: 1580px;
+  left: 0px;
+  /* From https://css.glass */
+  background: rgba(47, 47, 138, 0.4);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid #2f2f8a;
+}
+
+.saturn {
+  position: absolute;
+  top: -180px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+footer ul li {
+  padding: 70px 0px 10px 100px;
+  color: white;
+}
+
+.social {
+  position: absolute;
+  top: 180px;
+  left: 690px;
+}
+
+.social img{
+  cursor: pointer;
+}
+
+hr {
+  width: 1500px;
+}
+
+footer p {
+  position: absolute;
+  right: 40px;
+}
+
